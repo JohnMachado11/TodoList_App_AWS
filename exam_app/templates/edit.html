@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Page</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+  <script src="{% static 'js/jquery.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  
+  <link rel="stylesheet" href="{% static 'css/edittask.css' %}">
+</head>
+<body>
+    <div class="container login-container d-flex justify-content-center">
+      <div class="col-md-6 login-form-2 ">
+        <div class="text-center"><h1>Edit a Task</h1></div><hr>
+          <form action="/update/{{edit.id}}" method="POST">    
+            {% csrf_token %}  
+                  <div class="form-group"> 
+                    <h4>Task:</h4>
+                    <textarea class="form-control" name="task" rows="4">{{edit.task}}</textarea>
+                  </div><hr>
+                  <div class="form-group">
+                    <h4>Date:</h4>
+                      Previous Date: {{edit.month_day_year}}
+                      <input type="date" class="form-control" name="date" required/>
+                  </div><hr>
+                  <div class="form-group">
+                      <h4>Status - Choose your Option: </h4> Previous Status: {{edit.status}}
+                      <select type="" class="form-control" name="status" >
+                        <option value="Pending">Pending</option>
+                        <option value="Missed">Missed</option>
+                        <option value="Done">Done</option>
+                      </status>
+                  </div><hr>
+                  <div type="hidden" class="form-group"><br>
+                      <input type="hidden" class="" value="" />
+                      <!-- <button class="justify-content-center btn btn-primary my-2 my-sm-0 btn-override " type="submit">Add</button><hr>
+                      <a class="justify-content-center btn btn-danger my-2 my-sm-0 btn-override" href="/tasks">Cancel</a> -->
+                  </div><hr>
+                  <div class="form-group col text-center ">
+                    <button class="btn btn-primary btn-override" type="submit">Update</button><hr>
+                    <a class=" btn btn-danger btn-override" href="/update/table">Cancel</a>
+                  </div>
+              </form>
+              {% if messages %}
+              <ul class="messages">
+                  {% for message in messages %}
+                  <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>{{ message }}</li>
+                  {% endfor %}
+              </ul>
+              {% endif %}
+      </div>
+      
+</body>
+</html>

@@ -1,0 +1,414 @@
+*{
+margin: 0;
+padding: 0;
+/* outline: 1px solid black; */
+}
+
+.register_form{
+display: inline-block;
+border-radius: 10px;
+border: 2px solid grey;
+margin-left: 549px;
+margin-top: 216px;;
+padding: 12px;
+background-color: rgb(52, 54, 54);
+color: white;
+font-weight: bold 5px;
+}
+
+.login_form{
+display: inline-block;
+border-radius: 10px;
+margin-left: 100px;
+vertical-align: top;
+border: 2px solid grey;
+margin-left: 10px;
+margin-top: 216px;
+padding: 12px;
+background-color: rgb(52, 54, 54);
+color: white;
+font-weight: bold 5px;
+}
+
+.hellotext{
+display: inline-block;
+border-radius: 10px;
+font-size: 30px;
+border: 2px solid grey;
+padding: 8px;
+background-color: rgb(52, 54, 54);
+color: white;
+font-weight: bold 5px;
+}
+
+.btnout{
+background-color: #062024;
+display: inline-block;
+padding: 9px 26px;
+font-size: 28px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 34px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+.btnout:hover {background-color: #225463}
+
+.btnout:active {
+background-color: #2349b1;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.addstuff{
+background-color: #4CAF50;
+display: inline-block;
+padding: 13px 17px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #4CAF50;
+border: none;
+margin-left: 65px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+
+.addstuff:hover {background-color: #3e8e41}
+
+.addstuff:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.header{
+font-size: 27px;
+border: 1px solid black;
+background-color: #12314f;
+color: white;
+}
+
+.appointment_table, th, td{
+font-size: 23px;
+text-align: center;
+border: 1px solid black;
+background-color: #3a675e;
+color: white;
+}
+
+.addform{
+display: inline-block;
+border-radius: 10px;
+vertical-align: top;
+border: 2px solid grey;
+margin-left: 45%;
+margin-top: 14%;
+padding: 6px;
+background-color: rgb(52, 54, 54);
+color: white;
+height: auto;
+font-weight: bold 5px;
+}
+
+.btnback{
+background-color: #858d15;
+display: inline-block;
+padding: 13px 17px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 65px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+.btnback:hover {background-color: #a6b426}
+
+.btnback:active {
+background-color: #d6e64e;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.containerappt{
+background-color: #154564
+}
+
+.containerappt{
+background-color: #154564
+}
+
+.box{
+margin-left: 40%;
+margin-top: 17%;
+}
+
+.messages{
+color: white;
+font-size: larger;
+font-weight: bolder;
+}
+
+
+.addbtn1{
+background-color: #4CAF50;
+display: inline-block;
+padding: 7px 21px;
+font-size: 29px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 100px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+
+.addbtn1:hover {background-color: #3e8e41}
+
+.addbtn1:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.cancelbtn1{
+background-color: rgb(190, 37, 37);
+display: inline-block;
+padding: 7px 21px;
+font-size: 29px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 88px;
+margin-bottom: 10px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+.canceltn1:hover {background-color: #7a0a06}
+
+.cancelbtn1:active {
+background-color: #ff0101;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.registerbtn{
+background-color: #4CAF50;
+display: inline-block;
+padding: 9px 26px;
+font-size: 19px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 28px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+
+.registerbtn:hover {background-color: #3e8e41}
+
+.registerbtn:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.registerbtn1{
+background-color: #4CAF50;
+display: inline-block;
+padding: 9px 26px;
+font-size: 19px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 16px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+
+.registerbtn1:hover {background-color: #3e8e41}
+
+.registerbtn1:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+
+.forwardbtn{
+background-color: #3a675e;
+display: inline-block;
+padding: 9px 26px;
+font-size: 28px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 34px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+
+.forwardbtn:hover {background-color: #123a13}
+
+.forwardbtn:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.addbtn2{
+background-color: #4CAF50;
+display: inline-block;
+padding: 7px 21px;
+font-size: 29px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 76px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+
+.addbtn2:hover {background-color: #3e8e41}
+
+.addbtn2:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.cancelbtn2{
+background-color: rgb(190, 37, 37);
+display: inline-block;
+padding: 7px 21px;
+font-size: 29px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 83px;
+margin-bottom: 10px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+.canceltn2:hover {background-color: #7a0a06}
+
+.cancelbtn2:active {
+background-color: #ff0101;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.cancelbtn2{
+background-color: rgb(190, 37, 37);
+display: inline-block;
+padding: 7px 21px;
+font-size: 29px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-left: 83px;
+margin-bottom: 10px;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+.canceltn2:hover {background-color: #7a0a06}
+
+.cancelbtn2:active {
+background-color: #ff0101;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.editbtn{
+background-color: rgb(32, 100, 189);
+display: inline-block;
+padding: 7px 21px;
+font-size: 14px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin: 12px;
+border-radius: 10px;
+box-shadow: 0 4px #999;
+}
+
+.editbtn:hover {background-color: #3fc3f7}
+
+.editbtn:active {
+background-color: #072d66;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+.deletebtn{
+background-color: rgb(190, 37, 37);
+display: inline-block;
+padding: 7px 21px;
+font-size: 14px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+border: none;
+margin-bottom: 10px;
+border-radius: 10px;
+box-shadow: 0 4px #999;
+}
+
+.deletebtn:hover {background-color: #7a0a06}
+
+.deletebtn:active {
+background-color: #ff0101;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}

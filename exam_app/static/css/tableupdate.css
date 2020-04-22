@@ -1,0 +1,30 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #222831 !important;
+
+}
+
+.th{
+  background-color: #ececec;
+}
+
+.body{
+  background: #f2a365;
+}
+
+hr.white{
+  border-top: 1px solid white;
+}
+
+
+.btn-override{
+  min-width: 88px;
+}
+
+.btn-override_lol{
+  min-width: 38px;
+}
+
+

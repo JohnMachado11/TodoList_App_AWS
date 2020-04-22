@@ -1,0 +1,39 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #222831 !important;
+
+}
+
+.th{
+  background-color: #ececec;
+}
+
+.body{
+  background: #30475e;
+}
+
+hr.white{
+  border-top: 1px solid white;
+}
+
+.sadface{
+  height: auto;
+  width: 100%;
+}
+
+.happyface{
+  height: auto;
+  width: 100%;
+}
+
+.btn-override{
+  min-width: 88px;
+}
+
+.btn-override_lol{
+  min-width: 38px;
+}
+
+
