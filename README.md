@@ -1,5 +1,5 @@
 # TodoList_App_AWS
-A Todo List!
+A Todo List! 🚀⁣⁣⁣
 
 Built in Python using the Django framework. ⁣⁣⁣⁣
 Uses a SQL style database to store all the users data.⁣⁣
